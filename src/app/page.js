@@ -3,7 +3,7 @@ import Counter from "@/components/Counter/Counter";
 const HomePage = () => {
   return (
     <div>
-      <p> This is Next app </p>
+      <h1 className="text-2xl"> This is Next app </h1>
       <Counter/>
     </div>
   );
