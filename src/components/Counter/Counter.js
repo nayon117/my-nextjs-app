@@ -4,16 +4,16 @@ import { useState } from "react";
 const Counter = () => {
   const [counter, setCounter] = useState(0);
   return (
-    <div>
-      <h3>Counter:{counter}</h3>
+    <div className="space-y-3">
+      <h3 className="text-2xl">Counter: {counter}</h3>
       <button
-        className="btn bg-blue-600 px-2 py-1"
+        className="btn btn-primary mr-3"
         onClick={() => setCounter(counter + 1)}
       >
         Increase
       </button>
       <button
-        className="btn bg-blue-600 px-2 py-1"
+        className="btn btn-error"
         onClick={() => setCounter(counter - 1)}
       >
         Decrease
