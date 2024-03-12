@@ -2,7 +2,7 @@
 const ContactPage = () => {
     return(
         <div>
-             <p> This is Contact page page </p>
+             <p> contact page with header footer </p>
         </div>
     )
 }

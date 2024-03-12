@@ -2,7 +2,7 @@
 const AboutPage = () => {
     return(
         <div>
-             <p> This is about page </p>
+             <p> This is about page with header footer </p>
         </div>
     )
 }
